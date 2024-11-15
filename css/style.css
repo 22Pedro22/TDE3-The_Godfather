@@ -13,7 +13,7 @@
     }
 
     .section--intro{
-        background-position: 700px top , 245px top !important;
+        background-position: 700px top , 235px top !important;
     }
 
     .section--contact{
@@ -71,10 +71,26 @@
     .section--intro .intro__banner a{
         font-size: 35px;
     }
+
+    .section--intro .intro__banner a:hover{
+        background-position: 370px 4px, 555px 4px;
+    }
 }
 
 @media (max-width: 768px) {
+    header .header__container{
+        background-position: 610px 10px , 20px 10px !important;
+    }
 
+    .section--intro{
+        background-position: 110px top , 560px top !important;
+    }
+
+    .section--intro .intro__banner a:hover{
+        background-position: 240px 4px, 430px 4px;
+    }
+
+    .section
 }
 
 @media (max-width: 640px) {
@@ -137,15 +153,15 @@ body{
     transition: 0.5s;
 }
 
-.section--about{
-    border: 0.5px solid white;
-}
-
 .section--intro{
     background-image: url(https://i.pinimg.com/736x/74/a7/a0/74a7a021461ab178352474735c174c85.jpg), url(https://i.pinimg.com/736x/74/a7/a0/74a7a021461ab178352474735c174c85.jpg);
     background-position: 460px top, 930px top;
     background-size: 80px, 80px;
     background-repeat: no-repeat;
+}
+
+.section--about{
+
 }
 
 .intro__banner{
@@ -193,9 +209,14 @@ body{
     color: rgb(194, 194, 22);
 }
 
+
 .section__content{
     border-radius: 5px;
     padding-bottom: 20px;
+}
+
+.section--services .section__content{
+    border: none;
 }
 
 .section--services h2{
