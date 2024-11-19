@@ -7,6 +7,16 @@
 
 }
 
+@media (max-width: 1279px) and (min-width: 1025px){
+    .header__container{
+        background-image: none !important;
+    }
+
+    .section--intro{
+        background-image: none !important;
+    }
+}
+
 @media (max-width: 1024px) {
     .header__container{
         background-position: 760px top, 130px top !important;
@@ -77,6 +87,16 @@
     }
 }
 
+@media (max-width: 1023px) and (min-width: 769px){
+    .header__container{
+        background-image: none !important;
+    }
+
+    .section--intro{
+        background-image: none !important;
+    }
+}
+
 @media (max-width: 768px) {
     header .header__container{
         background-position: 610px 10px , 20px 10px !important;
@@ -90,16 +110,57 @@
         background-position: 240px 4px, 430px 4px;
     }
 
-    .section
+    .section--contact{
+        background-image: none !important;
+    }
 }
 
 @media (max-width: 640px) {
+    .header__container{
+        background-image: none !important;
+    }
     
+    .section--intro {
+        background-position: 60px top , 490px top !important;
+    }
+
+    .section--intro .intro__banner a{
+        background-position: 190px 4px , 370px 4px !important;
+    }
+
+    .section--contact{
+        background-image: none !important;
+    }
 }
 
 @media (max-width: 475px) {
-    
+    .header__container{
+        background-image: none !important;
+    }
+
+    .section--intro {
+        background-image: none !important;
+    }
+
+    .section--intro .intro__banner a{
+        background-image: none !important;
+    }
+
+    .section__content{
+        background-image: none;
+    }
+
+    .section--news .news__grid{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .section--contact{
+        background-image: none !important;
+    }
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------------------*/
 
 html{
     scroll-behavior: smooth;
@@ -151,17 +212,6 @@ body{
 .header__menu a:hover{
     color: red;
     transition: 0.5s;
-}
-
-.section--intro{
-    background-image: url(https://i.pinimg.com/736x/74/a7/a0/74a7a021461ab178352474735c174c85.jpg), url(https://i.pinimg.com/736x/74/a7/a0/74a7a021461ab178352474735c174c85.jpg);
-    background-position: 460px top, 930px top;
-    background-size: 80px, 80px;
-    background-repeat: no-repeat;
-}
-
-.section--about{
-
 }
 
 .intro__banner{
@@ -448,56 +498,8 @@ body{
     color: white;
 }
 
-
 footer{
     background-image: url(https://t4.ftcdn.net/jpg/03/09/43/23/360_F_309432331_yleM1smi61t72DRB7mrQucnCgba3n1Zc.jpg);
-}
-
-
-=======
-@font-face {
-    font-family: Corleone;
-    src: url(../assets/fonts/Corleone-Due-Regular.otf);
-}
-
-@media (max-width: 1280px) {
-
-}
-
-@media (max-width: 1024px) {
-
-}
-
-@media (max-width: 768px) {
-
-}
-
-@media (max-width: 640px) {
-    
-}
-
-@media (max-width: 475px) {
-    
-}
-
-html{
-    scroll-behavior: smooth;
-}
-
-body{
-    background-color: #060604;
-    color: rgb(255, 255, 255);
-    font-family: Corleone;
-}
-
-.header__container{
-    color: rgb(194, 194, 22);
-    display: flex;
-    flex-direction: column;
-    background-image: url(https://th.bing.com/th/id/OIP.xldByfaxvpGSDQ3sIwV1FgHaFj?pid=ImgDet&w=197&h=147&c=7&dpr=1,3), url(https://st5.depositphotos.com/37545346/69146/v/450/depositphotos_691467620-stock-illustration-rose-black-white-isolated-icon.jpg);
-    background-repeat: no-repeat;
-    background-size: 150px, 120px;
-    background-position: 1000px top, 330px top;
 }
 
 .header__title{
@@ -591,13 +593,6 @@ body{
 
 .section__content h2{
     font-size: 40px;
-}
-
-.section--contact{
-    background-image: url(https://i.pinimg.com/736x/fe/0b/ba/fe0bba36729977458465939470917f79.jpg), url(https://i.pinimg.com/736x/b4/aa/de/b4aade900c7e5a538be2d9cbbec2111c.jpg);
-    background-size: 400px , 200px;
-    background-repeat: no-repeat;
-    background-position: 1000px , 150px;
 }
 
 .section__content p{
@@ -807,6 +802,3 @@ body{
     border-radius: 5px;
     color: white;
 }
-
-
->>>>>>> fb0a96ef0f133003c98bc34be4fe32955630dc7b
