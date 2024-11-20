@@ -7,16 +7,6 @@
 
 }
 
-@media (max-width: 1279px) and (min-width: 1025px){
-    .header__container{
-        background-image: none !important;
-    }
-
-    .section--intro{
-        background-image: none !important;
-    }
-}
-
 @media (max-width: 1024px) {
     .header__container{
         background-position: 760px top, 130px top !important;
@@ -87,16 +77,6 @@
     }
 }
 
-@media (max-width: 1023px) and (min-width: 769px){
-    .header__container{
-        background-image: none !important;
-    }
-
-    .section--intro{
-        background-image: none !important;
-    }
-}
-
 @media (max-width: 768px) {
     header .header__container{
         background-position: 610px 10px , 20px 10px !important;
@@ -139,10 +119,6 @@
     }
 
     .section--intro {
-        background-image: none !important;
-    }
-
-    .section--intro .intro__banner a{
         background-image: none !important;
     }
 
