@@ -160,7 +160,7 @@
     }
 
     .header__nav{
-        border-bottom: 1px solid white !important;
+        border-bottom: 1px solid white;
     }
 
     .header__menu{
@@ -325,13 +325,6 @@ body{
     transition: 0.5s;
     background-color: red;
     color: white;
-}
-
-.gallery__grid{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 15px;
 }
 
 .gallery__img{
@@ -710,12 +703,6 @@ footer{
 
 .service__item p{
     font-size: 17px;
-}
-
-.news__item{
-    display: flex;
-    gap: 20px;
-    padding-left: 20px;
 }
 
 .news__title{
