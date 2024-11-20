@@ -158,6 +158,14 @@
     .news__content h3{
         font-size: 30px;
     }
+
+    .header__nav{
+        border-bottom: 1px solid white !important;
+    }
+
+    .header__menu{
+        display: none !important;
+    }
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------------------*/
