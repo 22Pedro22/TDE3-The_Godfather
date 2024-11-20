@@ -7,7 +7,14 @@
 
 }
 
+@media (max-width: 1204px){
+    .section--news{
+        background-image: none !important;
+    }
+}
+
 @media (max-width: 1024px) {
+
 
     .section__content h2{
         font-size: 50px;
@@ -68,6 +75,12 @@
     .section--intro{
         background-position: 10vw top, 80vw top;
         background-size: 80px, 80px;
+    }
+}
+
+@media (max-width: 980px){
+    .intro__banner a:hover{
+        background-image: none !important;
     }
 }
 
@@ -259,7 +272,6 @@ body{
 
 .section__title{
     font-size: 35px;
-    text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
     color: rgb(194, 194, 22);
@@ -305,6 +317,10 @@ body{
 
 .section--gallery{
     padding-top: 20px;
+}
+
+.section--gallery .section__title{
+    text-align: center;
 }
 
 .gallery__item{
@@ -395,7 +411,7 @@ body{
     background-image: url(https://images4.alphacoders.com/217/217234.jpg);
     background-size: 1000px;
     background-repeat: no-repeat;
-    background-position: 800px ,2000px;
+    background-position: 50vw;
 
 }
 
@@ -602,7 +618,6 @@ footer{
 
 .section__title{
     font-size: 35px;
-    text-align: center;
     padding-bottom: 20px;
     padding-top: 20px;
     color: rgb(194, 194, 22);
